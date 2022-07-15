@@ -1,0 +1,32 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.App {
+  width: 50%;
+  margin: 10rem auto;
+  height: 570px;
+}
+
+
+.slide {
+  transform: scale(0.95);
+  transition: transform 300ms;
+  
+}
+
+.activeSlide {
+  transform: scale(1);
+  
+}
+
+.slick-dots li button::before {
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.slick-dots li.slick-active button::before {
+  color: #fff;
+  opacity: 1;
+}
+
